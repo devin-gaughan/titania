@@ -94,6 +94,18 @@ function App() {
 
   return (
     <div className="app">
+      <header className="topbar">
+        <div className="brand">
+          <svg viewBox="0 0 16 16" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.3" strokeLinejoin="round" aria-hidden="true">
+            <path d="M8 1.5 13.6 4.75v6.5L8 14.5 2.4 11.25v-6.5z" />
+            <path d="M8 8v6.5M8 8 2.4 4.75M8 8l5.6-3.25" opacity=".55" />
+            <circle cx="8" cy="8" r="1.5" fill="currentColor" stroke="none" />
+          </svg>
+          Titania
+        </div>
+        <div className="context">Crystal lattice simulator</div>
+      </header>
+
       {/* Mobile toggle */}
       <button
         className={`sidebar-toggle ${sidebarOpen ? 'open' : ''}`}

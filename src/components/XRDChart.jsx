@@ -57,7 +57,7 @@ function buildProfile(peaks) {
 }
 
 
-export default function XRDChart({ peaks, activeMiller, onPeakClick, accentColor = '#60dfff' }) {
+export default function XRDChart({ peaks, activeMiller, onPeakClick, accentColor = '#74a8f9' }) {
   const svgRef = useRef();
 
   // Broadened profile path

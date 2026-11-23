@@ -15,14 +15,14 @@ export default class ErrorBoundary extends Component {
       return (
         <div style={{
           display: 'flex', flexDirection: 'column', alignItems: 'center',
-          justifyContent: 'center', height: '100%', color: '#8b8fa3',
+          justifyContent: 'center', height: '100%', color: '#b4bfcd',
           fontFamily: 'DM Sans, sans-serif', textAlign: 'center', padding: '2rem',
-          background: 'var(--bg-deep, #08090c)',
+          background: 'var(--bg-deep, #0e131a)',
         }}>
           <div style={{ fontSize: '2rem', marginBottom: '1rem', opacity: 0.5 }}>
             &#x26A0;
           </div>
-          <h2 style={{ fontSize: '1rem', color: '#e8eaed', marginBottom: '0.5rem' }}>
+          <h2 style={{ fontSize: '1rem', color: '#e7ebf1', marginBottom: '0.5rem' }}>
             3D Renderer Unavailable
           </h2>
           <p style={{ fontSize: '0.85rem', maxWidth: '340px', lineHeight: 1.5 }}>
@@ -32,9 +32,9 @@ export default class ErrorBoundary extends Component {
           <button
             onClick={() => this.setState({ hasError: false, error: null })}
             style={{
-              marginTop: '1rem', padding: '8px 16px', background: 'rgba(167,139,250,0.15)',
-              border: '1px solid rgba(167,139,250,0.3)', borderRadius: '6px',
-              color: '#a78bfa', cursor: 'pointer', fontFamily: 'inherit', fontSize: '0.82rem',
+              marginTop: '1rem', padding: '8px 16px', background: 'rgba(76,141,246,0.15)',
+              border: '1px solid rgba(76,141,246,0.3)', borderRadius: '6px',
+              color: '#74a8f9', cursor: 'pointer', fontFamily: 'inherit', fontSize: '0.82rem',
             }}
           >
             Retry

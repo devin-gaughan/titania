@@ -37,13 +37,6 @@ export default function Sidebar({
 
   return (
     <aside className={`sidebar ${sidebarOpen ? 'open' : 'closed'}`}>
-      <div className="sidebar-header">
-        <h1 className="logo">
-          <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="Auraeon" className="logo-img" style={{width: '36px', height: '36px', marginRight: '8px', verticalAlign: 'middle'}} />
-          Titania
-        </h1>
-        <p className="logo-sub">Crystal Lattice Simulator</p>
-      </div>
 
       {/* Structure selector */}
       <section className="panel">
