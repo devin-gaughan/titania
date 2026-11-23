@@ -6,6 +6,8 @@ Titania runs in the browser and is built with React and Three.js. Explore the cr
 
 **Live app:** https://devingaughan.com/auraeon/
 
+**Tutorial:** [Build a crystal from two small arrays](https://devingaughan.com/writing/titania-crystal-from-two-arrays.html)
+
 ![React](https://img.shields.io/badge/React-19-blue) ![Three.js](https://img.shields.io/badge/Three.js-r182-green) ![License](https://img.shields.io/badge/License-PolyForm--NC-orange)
 
 ## Features
